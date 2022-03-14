@@ -1,0 +1,137 @@
+:root {
+    --main-blue: #267365;
+    --main-yellow: #F2CB05;
+    --light-orange: #F29F05;
+    --main-orange: #F28705;
+    --main-red: #F23030;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+#navbar {
+    display: flex;
+    justify-content: flex-end;
+    background-color: var(--main-red);
+    position: fixed;
+    width: 100%;
+}
+
+.navList a {
+    display: block;
+    padding: 1.5rem;
+    color: black;
+    font-size: xx-large;
+}
+
+.navList a:hover{
+ background-color: white;
+}
+
+#welcome-section {
+    background-color: var(--main-blue);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 4rem;
+    padding: 4rem;
+}
+
+h2 {
+    padding: 4rem;
+    font-size: 3rem;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+#projects {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--main-yellow);
+} 
+
+.project-tiles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--main-orange)
+}
+
+.contact-links {
+    display: flex;
+}
+
+.contact-links a {
+    display: block;
+    padding: 2rem 3rem;
+    font-size: xx-large;
+}
+
+footer {
+    padding: 3rem;
+    text-align: center;
+    background-color: var(--main-orange);
+    color: var(--main-blue);
+}
+
+figure {
+    margin: 2rem;
+}
+
+figure img {
+    width: 15rem;
+}
+
+figcaption {
+    background-color: var(--main-orange);
+    text-align: center;
+    font-size: large;
+    border-radius: 2px 2px 6px 6px;
+}
+
+.contact-details {
+    transition: transform 0.3s ease-out;
+}
+
+.contact-details:hover {
+    transform: translateY(8px);
+}
+
+@media (max-width: 75em) {
+    html {
+        font-size: 80%;
+    }
+}
+
+@media (max-width: 60em) {
+    html {
+        font-size: 70%;
+        color: blue;
+    }
+}
