@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 1rem;
+    box-sizing: border-box;
+    background-color: bisque;
+}
+
+h1 {
+    color: black;
+    background-color: bisque;
+    text-align: center;
+}
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    text-align: center;
+    font-size: x-large;
+    margin: 1rem;
+}

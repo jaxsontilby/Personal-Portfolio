@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: bisque;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+figure {
+    margin: 1rem;
+}
+
+figure img {
+    max-height: 20rem;
+}
+
+button {
+    width: 10rem;
+    height: 4rem;
+    margin: 1rem;
+    color: black;
+    font-size: large;
+}
+
+figure {
+    color: black;
+    text-align: center;
+    margin: 1rem;
+    font-size: large;
+}
