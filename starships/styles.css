@@ -8,6 +8,13 @@ body {
     background-color: bisque;
 }
 
+
+
+h1 {
+    text-align: center;
+    font-size: 5rem;
+}
+
 .mainContainer {
     display: flex;
 }
@@ -23,7 +30,7 @@ body {
 }
 
 ul {
-    margin: 1rem;
+    margin: 3rem;
     list-style-type: none;
 }
 
