@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: bisque;
+}
+
+.senatorsDiv {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem;
+}
+
+h1 {
+    text-align: center;
+    font-size: xx-large;
+}
+
+figcaption {
+    text-align: center;
+    font-size: larger;
+}
+
